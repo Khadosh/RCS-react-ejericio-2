@@ -8,7 +8,12 @@ function App() {
   const titles = ["Card", "Pepito", "Juancito", "Picaron", "Etc, etc"];
 
   return titles.map(function(title) {
-    return <Card key={title} title={title} />;
+    return <Card
+      key={title}
+      title={title}
+      name="Pepito Piscina"
+      otro="asdfasdf"
+    />;
   });
 }
 
