@@ -1,0 +1,30 @@
+.tareas__wrapper {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.tareas__wrapper form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tareas__wrapper form input {
+  width: 100%;
+}
+
+.tarea {
+  display: flex;
+  margin: 5px 20px;
+  box-shadow: 0 0 3px lightgray;
+  padding: 0 0 0 10px;
+}
+
+.tarea__close {
+  width: 50px;
+}
+
+.tarea__text {
+  flex: 1;
+}

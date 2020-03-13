@@ -1,20 +1,11 @@
 import React from "react";
-import Card from "./Card";
+import Tareas from './Components/Tareas'
 
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
-  const titles = ["Card", "Pepito", "Juancito", "Picaron", "Etc, etc"];
-
-  return titles.map(function(title) {
-    return <Card
-      key={title}
-      title={title}
-      name="Pepito Piscina"
-      otro="asdfasdf"
-    />;
-  });
+  // Lo único que tenemos por ahora es Tareas en nuestra aplicación así que no hay más para retornar.
+  return <Tareas />;
 }
 
 export default App;
